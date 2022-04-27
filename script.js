@@ -1,4 +1,3 @@
-const
 
 document.addEventListener('click', handleClick);
 
