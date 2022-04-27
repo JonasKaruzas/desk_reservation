@@ -126,7 +126,8 @@ html {
 }
 
 .red, 
-.green {
+.green,
+.selected {
     color:#ffffff;
     text-shadow:0px 1px 0px #777777;
 }
@@ -137,4 +138,8 @@ html {
 
 .green {
     background-color: rgb(99, 151, 102);
+}
+
+.selected {
+    background-color: rgb(99, 126, 151);
 }
