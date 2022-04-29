@@ -70,9 +70,9 @@ for (let i = 0; i < a.length; i++) {
 
 function handleClick(e) {
   element = e.target;
-  console.log(element);
-  console.log(element.id);
-  console.log(e);
+  // console.log(element);
+  // console.log(element.id);
+  // console.log(e);
 
   if (element.classList.contains("desk")) {
     tableClick(element);
@@ -144,8 +144,6 @@ function viewReservedHours() {
   let allHours = document.getElementsByClassName("hour");
 
   removeAllRed(allHours);
-  console.log("------------");
-  console.log(reservedHours);
 
   for (let i = 0; i < reservedHours.length; i++) {
     for (let j = 0; j < allHours.length; j++) {
