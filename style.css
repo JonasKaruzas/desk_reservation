@@ -117,8 +117,10 @@ html {
 }
 .hour:hover,
 .day:hover {
-	background-color:#c2c2c2;
+    outline: 2px solid #c2c2c2;
+    outline-offset: -2px;
 }
+
 .hour:active,
 .day:active {
 	position:relative;
